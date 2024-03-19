@@ -2,6 +2,7 @@ import Head from "next/head";
 import { ReactNode, useState } from "react";
 import NavBar from "../Common/NavBar";
 import NavBody from "../Common/NavBody";
+import Footer from "../Common/Footer";
 
 type TPropsType = {
   children: ReactNode;
@@ -26,6 +27,8 @@ const Layout = ({ children, pageTitle }: TPropsType) => {
       </div>
 
       <main>{children}</main>
+
+      <Footer />
     </>
   );
 };

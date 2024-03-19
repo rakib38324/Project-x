@@ -58,9 +58,9 @@ const NavBody = () => {
                   <Link
                     key={i}
                     href={sub?.url}
-                    className={`mt-10 ${index === 0 ? "text-4xl" : "text-xl"}`}
+                    className={`mt-10 ${index === 0 ? "text-4xl" : "text-xl"} `}
                   >
-                    {sub?.label}
+                    <span className="hover:text-yellow-400">{sub?.label}</span>
                   </Link>
                 ))}
             </div>
