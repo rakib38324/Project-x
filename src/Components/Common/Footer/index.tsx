@@ -21,7 +21,7 @@ const Footer = () => {
             X, a division of Google LLC. All rights reserved.
           </p>
         </div>
-        <div className=" flex gap-5">
+        <div className=" flex gap-10">
           <p className="cursor-pointer">PRIVACY + TERMS</p>
           <p className="cursor-pointer">GOOGLE</p>
           <p className="cursor-pointer">ALPHABET</p>

@@ -36,7 +36,7 @@ const NavBody = () => {
     },
   ];
   return (
-    <section className="h-container">
+    <section className="h-container mx-2">
       <nav className="max-w-screen-lg my-10 mx-auto md:grid grid-cols-12">
         {navigation &&
           navigation.map((item, index) => (
@@ -65,8 +65,7 @@ const NavBody = () => {
                 ))}
             </div>
           ))}
-        <div className="lg:col-span-3"></div>
-        <div className="lg:col-span-3"></div>
+       
       </nav>
     </section>
   );
