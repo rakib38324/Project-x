@@ -72,7 +72,24 @@ export default function Home() {
 
       <HoverCard />
 
-      
+      <div className="bg-black text-white">
+        <p className="uppercase sticky top-0 z-30 text-xl p-3 bg-yellow-400 w-60 pl-10">
+          X Timeline
+        </p>
+
+        <div className="max-w-screen-lg mx-auto p-5 ">
+          <p className="text-4xl my-10">Ten years of moonshots</p>
+          <p className="md:w-2/3  text-lg py-10">
+            In 2010, Google founders Larry Page and Sergey Brin decided to form
+            a new division of the company to work on moonshots: far-out, sci-fi
+            sounding technologies that could one day make the world a radically
+            better place. It was a grand experiment — some might say a moonshot
+            unto itself. 10 years in, X has incubated hundreds of different
+            moonshot projects, many of which have gone on to become independent
+            businesses.
+          </p>
+        </div>
+      </div>
     </Layout>
   );
 }
