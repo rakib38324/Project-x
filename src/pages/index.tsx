@@ -3,6 +3,9 @@ import Layout from "@/Components/Layout";
 import { TypeAnimation } from "react-type-animation";
 import background from "../Media/earth.jpg";
 import { FaArrowRight } from "react-icons/fa";
+import HoverCard from "@/Components/HoverCard";
+import logo from "../Media/white.jpg";
+
 export default function Home() {
   return (
     <Layout pageTitle="X">
@@ -66,6 +69,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <HoverCard />
+
+      
     </Layout>
   );
 }
