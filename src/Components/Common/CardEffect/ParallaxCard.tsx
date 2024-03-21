@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import { Parallax } from "react-scroll-parallax";
 
@@ -11,10 +12,12 @@ const ParallaxCard = ({ image, title, content }: TProps) => {
   return (
     <div className="sticky top-0 card relative flex items-center justify-center h-screen">
       <Parallax className="absolute inset-0">
-        <img
+        <Image
+          width={600}
+          height={600}
           src={image}
           alt={title}
-          className="absolute inset-0 object-cover w-full h-full"
+          className="absolute inset-0 object-cover w-full h-screen"
         />
       </Parallax>
       <div className="w-1/2 mx-auto relative z-10 text-white">
