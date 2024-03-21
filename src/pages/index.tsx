@@ -5,6 +5,7 @@ import background from "../Media/earth.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import HoverCard from "@/Components/HoverCard";
 import logo from "../Media/white.jpg";
+import Carousel from "@/Components/Common/Carousel";
 
 export default function Home() {
   return (
@@ -90,6 +91,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <Carousel />
     </Layout>
   );
 }

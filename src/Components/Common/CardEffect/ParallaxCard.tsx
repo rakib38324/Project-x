@@ -18,9 +18,14 @@ const ParallaxCard = ({ image, title, content }: TProps) => {
         />
       </Parallax>
       <div className="w-1/2 mx-auto relative z-10 text-white">
-        <h1 data-aos="fade-right" className="text-2xl mb-4">{title}</h1>
-        <p data-aos="fade-right" className="flex gap-10 hover:text-yellow-400 cursor-pointer">
-          <FaArrowRight className="p-2 text-3xl text-black bg-yellow-400" />
+        <h1 data-aos="fade-right" className="text-2xl mb-4">
+          {title}
+        </h1>
+        <p
+          data-aos="fade-right"
+          className="flex gap-10 hover:text-yellow-400 cursor-pointer"
+        >
+          <FaArrowRight className="p-2 text-xl md:text-3xl text-black bg-yellow-400" />
           {content}
         </p>
       </div>
