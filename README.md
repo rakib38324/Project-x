@@ -1,5 +1,5 @@
 
-# Welcome to Project-X
+# Welcome to Project-X.
 
 ## Uses Technology uses: 
 TypeScript, Nextjs
